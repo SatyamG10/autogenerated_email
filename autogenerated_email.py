@@ -15,7 +15,7 @@ def send_mail(fromaddr,toaddr,password,day,filename):
         msg = MIMEMultipart()
         msg['From'] = fromaddr
         msg['To'] = toaddr[0]
-        msg['Subject'] = "More_Daily_C2A_"+day.strftime("%Y-%m-%d")
+        msg['Subject'] = "Choose_subject_line"+day.strftime("%Y-%m-%d")
         if True:
             body = """
             
